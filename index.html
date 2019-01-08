@@ -2,40 +2,103 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="google-site-verification" content="lz72Tm8teeVcqlKOJCqVpCKwXRmjq6SRyOM0LQG-1Yk" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
-    <link rel='stylesheet' media='screen and (min-width: 851px)' href='stria.css' />
-    <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 850px)' href='mobile.css' />
-    <title> Stria </title>
+    <link rel='stylesheet' media='screen and (orientation: landscape)' href='stria.css' />
+    <!-- <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 850px) or (orientation: portrait)' href='mobile.css' /> -->
+    <link rel='stylesheet' media='screen and (orientation: portrait)' href='mobile.css' />
+    <!-- add for large sizes too? -->
+    <title> Stria - About</title>
   </head>
-  <header class="nav_bar" id="intro" role="banner">
-    <img src="pictures/logo-eye.jpg" href="about.html" id="eye" alt="link to homepage"/>
-    <img src="pictures/logo-text.jpg" href="about.html" id="stria_logo" alt="stria"/>
-  </header>
-  <main role="main" class="homepage_main">
-    <div class="gray_bkg" id="homepage_bkg">
-      <div class="gray_box white_box">
-          <p class="homepage_introduction">
-            Stria is a student run start-up devoted to helping face the challenges of visual impairment. Straying from straight paths is one of the largest dangers of visual impairment, especially at crosswalks and sidewalks. <b>Stria’s mission is to empower and improve the lives of blind and visually impaired individuals in Northern California and beyond by harnessing the power of design engineering.</b>
-          </p>
-        <nav class="button_container" role="navigation">
-          <menu>
-            <p class="center">
-               Select the Stria website version you would like to view:
-            </p>
-            <ul class="center">
-              <a href="bare_about.html"><li class="navigation_buttons">Plain, Accessible Website</li></a>
-              <a href="about.html"><li class="navigation_buttons">Website With Graphics</li></a>
-            </ul>
-          </menu>
-        </nav>
-      </div>
-    </div>
-  </main>
-</body>
-<footer class="white_text no_margin">
-  <div class="no_border">benchmark of blind design</div>
-  <div>Email <p>team@stria.org</p></div>
-  <div>Phone<p>+1(650)878-7228</p></div>
-  <p>© 2018 by STRIA.</p>
-</footer>
+  <body>
+    <header class="nav_bar" role="banner">
+      <a href="index.html"> <img src="pictures/logo-eye.jpg" href="index.html" id="eye" alt="link to homepage"/>
+      <img src="pictures/logo-text.jpg" href="index.html" id="stria_logo" alt="stria and link to stria homepage"/> </a>
+      <nav role="navigation">
+        <menu>
+          <ul>
+            <li> <a href="index.html">home</a> </li>
+            <li> <a href="about_us.html">about us</a> </li>
+            <li> <a href="stria_band.html">stria band</a> </li>
+            <li> <a href="contact.html">contact</a> </li>
+            <li id="hide"> team@stria.org </li>
+          </ul>
+        </menu>
+      </nav>
+    </header>
+    <main role="main" id="home">
+      <section class="image_container">
+        <img src="pictures/white_logo.jpg" id="main_logo" alt="Stria"/>
+        <div class="white_vertical" id="title_line"></div>
+        <h1 class="positioning_line white_text space_text" id="main_title"> <span class="background_text" /span>BENCHMARK OF BLIND DESIGN</h1>
+        <img src="pictures/IMG_4730.jpg" alt="The Stria team laughing and talking with Jimmy." id="coverpicture"/>
+      </section>
+
+      <section class="gray_box" id="box_1">
+        <h2 class="space_text">ABOUT <span class="light">US</span></h2>
+        <div id="white_line_1"></div><p>Stria is a student run start-up devoted to helping face the challenges of visual impairment. Straying from straight paths is one of the largest dangers of visual impairment, especially at crosswalks and sidewalks. <b>Stria’s mission is to empower and improve the lives of blind and visually impaired individuals in Northern California and beyond by harnessing the power of design engineering.</b></p>
+          <a href="about_us.html"><div class="gray_box_button">learn more</div></a>
+      </section>
+
+      <section>
+        <img src="pictures/whiteboard.jpg" id="whiteboard" alt="whiteboard brainstorm about Stria" />
+        <div class="blue_box" id="blue_box_1"> </div>
+      </section>
+
+      <section class="gray_division" id="half_division_1">
+        <div id="blue_line_1"></div>
+        <h2 class="space_text">WHAT <span class="light">WE DO</span></h2>
+        <div class="block">
+          <article>
+            <img src="pictures/prototypebreadboard.jpg" alt="breadboard and prototyping materials for initial ideas of the stria band"/>
+            <h3>SMART</h3>
+            <p>Our band is able to determine whether you are straying from the path, or intentionally turning.</p>
+          </article>
+          <article>
+            <img src="pictures/striawithsign.jpg" alt="stria prototype band"/>
+            <h3>RELIABLE</h3>
+            <p>The battery lasts for more than a year and will warn you before it dies, so you know you are always safe.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="white_division">
+        <div id="blue_2"></div>
+        <div class="block">
+          <article>
+            <img src="pictures/band.jpg" alt="rendering of a stria band iteration"/>
+            <h3>CONVENIENT</h3>
+            <p>The band is designed to stay out of your way all day. We want to ensure your comfort.</p>
+          </article>
+          <article>
+            <img src="pictures/whiteboard.jpg" alt="whiteboard with brainstorm in markers about stria"/>
+            <h3>INTENTIONAL</h3>
+            <p>To make sure that this is what you need, we went through numerous designs before creating the Stria Band.</p>
+          </article>
+        </div>
+      </section>
+
+      <a href="stria_band.html"><div id="band_button">Discover Stria Band</div></a>
+      <section class="gray_box" id="box_2">
+        <iframe width="713" height="412" src="https://www.youtube.com/embed/Gk-kUnnjunY?ecver=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </section>
+
+      <section class="image_fold">
+        <hr class="white_image white_text">
+        <div>
+          <h4 class="space_text">PREORDER NOW</h4>
+          <p>Stria Belt will be coming to market soon! Sign up here to be the first to know about it and to receive details about potential government subsidization for this product!</p>
+          <div href="contact.html" class="white_button"><a href="contact.html">Preorder Now</a></div>
+        </div>
+      </section>
+
+    </main>
+  </body>
+  <footer class="white_text">
+    <div class="no_border">benchmark of <p>blind design</p></div>
+    <div>Email <p>team@stria.org</p></div>
+    <div>Phone<p>+1(650)878-7228</p></div>
+    <p>© 2019 by STRIA.</p>
+  </footer>
 </html>

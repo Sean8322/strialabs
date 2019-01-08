@@ -2,23 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700,900" rel="stylesheet">
-    <link rel='stylesheet' media='screen and (min-width: 851px)' href='stria.css' />
-    <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 850px)' href='mobile.css' />
+    <link rel='stylesheet' media='screen and (orientation: landscape)' href='stria.css' />
+    <!-- <link rel='stylesheet' media='screen and (min-width: 0px) and (max-width: 850px) or (orientation: portrait)' href='mobile.css' /> -->
+    <link rel='stylesheet' media='screen and (orientation: portrait)' href='mobile.css' />
     <title> Stria - About Us</title>
   </head>
   <body>
     <header class="nav_bar" role="banner">
-      <a href="about.html"> <img src="pictures/logo-eye.jpg" href="about.html" id="eye" alt="link to homepage"/>
-      <img src="pictures/logo-text.jpg" href="about.html" id="stria_logo" alt="stria and link to stria homepage"/> </a>
+      <a href="index.html"> <img src="pictures/logo-eye.jpg" href="index.html" id="eye" alt="link to homepage"/>
+      <img src="pictures/logo-text.jpg" href="index.html" id="stria_logo" alt="stria and link to stria homepage"/> </a>
       <nav role="navigation">
         <menu>
           <ul>
-            <li> <a href="about.html">home</a> </li>
+            <li> <a href="index.html">home</a> </li>
             <li> <a href="about_us.html">about us</a> </li>
             <li> <a href="stria_band.html">stria band</a> </li>
             <li> <a href="contact.html">contact</a> </li>
-            <li> <a href="index.html">navigation</a> </li>
             <li id="hide"> team@stria.org </li>
           </ul>
         </menu>
@@ -28,9 +29,9 @@
       <div class="gray_bkg">
         <div class="gray_box white_box" id="about_box">
           <hr class="contact_us_blue_line"/>
-          <h1 class="space_text center big">ABOUT <span class="light">US</span></h1>
+          <h1 class="space_text center big" id="about_title">ABOUT <span class="light">US</span></h1>
 
-          <section class="">
+          <section>
             <img src="pictures/group_photo.jpg" id="team_photo" alt="Stria team group photo" />
             <div class="blue_box" id="blue_box_2"> </div>
             <p class="about_team">
@@ -42,7 +43,7 @@
             <p>
               Stria began in the summer of 2017 when a group of four high school students became interested in blindness. Now, Stria is a team of 14 high schoolers, dedicated to tackling blindness in the Bay Area.
             </p>
-            <img src="pictures/about_team.jpg" alt="Stria team meeting as members sit around a table."/>
+            <img src="pictures/about_team.jpg" alt="Stria team meeting as members sit around a table." id="stria_meeting_photo"/>
           </section>
 
           <section class="meet_team">
@@ -154,7 +155,7 @@
             </div>
             <div class="member">
               <p id="alice">
-                Website coded by Alice Ge
+                website programmed<br />by Alice Ge
               </p>
             </div>
             </div>
@@ -164,9 +165,9 @@
     </main>
   </body>
   <footer class="white_text no_margin">
-    <div class="no_border">benchmark of blind design</div>
+    <div class="no_border">benchmark of <p>blind design</p></div>
     <div>Email <p>team@stria.org</p></div>
     <div>Phone<p>+1(650)878-7228</p></div>
-    <p>© 2018 by STRIA.</p>
+    <p>© 2019 by STRIA.</p>
   </footer>
 </html>
