@@ -498,4 +498,39 @@ h2#featuresbare {
   margin-top: 50px;
 }
 
+.friends_img {
+  margin-top: 80px;
+}
+
+
+
+#sxsw div {
+  border-radius: 0%;
+}
+
+#project_paradigm div {
+  border-radius: 0%;
+}
+
+#sxsw img {
+  height: 139.3px;
+  width: 101.4px;
+}
+
+#patentingenuity {
+  margin-top: 30px;
+}
+
+#patentingenuity div {
+  border-radius: 0%;
+  height: 50px;
+
+}
+
+#patentingenuity img {
+  width: 163.5px;
+  height: 32.5px;
+}
+
+
 /* animations */

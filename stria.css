@@ -783,14 +783,13 @@ footer div {
 }
 
 .member {
-  width: 150;
+  width: 150px;
   height: 200px;
   text-align: center;
   display: inline-block;
   margin: 10px;
   margin-left: 15px;
   margin-right: 15px;
-  font-style: italic;
 }
 
 .members {
@@ -870,4 +869,66 @@ main.bare {
 #bare a {
   color: white;
   font-size: 14pt;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.friends_img {
+  width: 400px;
+  height: 250px;
+  opacity: 0.9;
+  position: absolute;
+  overflow: hidden;
+  top: 420px;
+  left: calc(330px + 30%);
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom: solid;
+  border-color: var(--mid-blue);
+  border-width: 5px;
+  padding-bottom: 20px;
+}
+
+.friends_img img {
+  width: 428.2px;
+  height: 270.6px;
+}
+
+.gap {
+  height: 150px;
+  width: 100%;
+
+}
+
+#sxsw div {
+  border-radius: 0%;
+}
+
+#project_paradigm div {
+  border-radius: 0%;
+}
+
+#sxsw img {
+  height: 139.3px;
+  width: 101.4px;
+}
+
+#patentingenuity {
+  margin-top: 30px;
+}
+
+#patentingenuity div {
+  border-radius: 0%;
+  height: 50px;
+
+}
+
+#patentingenuity img {
+  width: 163.5px;
+  height: 32.5px;
 }
