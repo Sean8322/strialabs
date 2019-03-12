@@ -532,5 +532,34 @@ h2#featuresbare {
   height: 32.5px;
 }
 
+.product {
+  width: 100%;
+  height: 310px;
+  background-image: url("pictures/writing2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
+  color: white;
+  text-align: center;
+}
+
+.product h4 {
+  padding-top: 60px;
+}
+
+.product p {
+  margin: 30px;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.spacer {
+  height: 30px;
+}
+
 
 /* animations */
