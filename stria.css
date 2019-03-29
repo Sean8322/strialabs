@@ -933,6 +933,16 @@ main.bare {
   height: 32.5px;
 }
 
+#google img {
+  padding-top: 15px;
+}
+
+#surveymonkey img {
+  padding-top: 30px;
+  width: 90%;
+  height: 65%;
+}
+
 /* products page */
 .product {
   width: 100%;
