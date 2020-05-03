@@ -195,16 +195,31 @@ footer div {
 .white_division img {
 }
 
+section.divisions {
+  padding-top: 100px;
+  padding-bottom: 150px;
+
+}
+
+.divisions .space_text {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.block {
+  text-align: center;
+}
+
 .block article {
-  width: 48%;
+  width: 30%;
   display: inline-block;
   text-align: center;
   vertical-align: top;
 }
 
 .block p {
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
 
 }
 
@@ -215,7 +230,7 @@ footer div {
 .image_fold {
   height: 400px;
   color: white;
-  background-image: url("pictures/band.jpg");
+  background-image: url("pictures/preordernow.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -464,7 +479,7 @@ footer div {
   background-color: white;
 }
 
-#blue_line_1 {
+/* #blue_line_1 {
   height: 80px;
   width: 3px;
   margin-left: calc(100% - 1.5px);
@@ -472,15 +487,15 @@ footer div {
   margin-bottom: 20px;
   border: 0;
   background-color: var(--light-blue);
-}
+} */
 
 #band_button {
   position: relative;
   float: left;
   left: calc(50% - 95px);
-  bottom: 190px;
   background-color: var(--dark-teal);
   color: white;
+  margin-top: 45px;
   padding: 10px 15px 10px;
 }
 
@@ -515,6 +530,17 @@ footer div {
 }
 
 /* contact page */
+#emailbox {
+  background-color: var(--light-blue);
+  color: white;
+  height: 20px;
+  width: 100px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 59%;
+}
+
 .contact_us_blue_line {
   background-color: var(--light-blue);
   height: 210px;
@@ -525,6 +551,7 @@ footer div {
   background-color: white;
   height: 920px;
   width: 800px;
+  text-align: center;
 }
 
 .info_box {
@@ -534,11 +561,20 @@ footer div {
   color: var(--mid-blue);
   position: relative;
   width: 250px;
-  left: 50%;
   top: 50px;
   padding: 120px 80px 30px;
   text-align: right;
+}
 
+
+#contactpicture {
+  width: 29%;
+  position: absolute;
+  left: 60%;
+  top: 317px;
+  border-style: solid;
+  border-color: white;
+  border-width: 20px;
 }
 
 .horizontal_blue {
@@ -712,10 +748,10 @@ footer div {
 
 /* about us */
 #team_photo {
-  width: 550px;
+  width: 500px;
   position: absolute;
-  margin-top: 40px;
-  left: 70px;
+  margin-top: 90px;
+  left: 100px;
   z-index: 5;
   display: inline-block;
 }
@@ -731,7 +767,7 @@ footer div {
 
 .about_team {
   height: 240px;
-  padding-top: 240px;
+  padding-top: 200px;
   padding-left: calc(10% + 450px);
   display: block;
 }
@@ -934,7 +970,6 @@ main.bare {
 }
 
 #google img {
-  padding-top: 15px;
 }
 
 #surveymonkey img {
@@ -947,14 +982,18 @@ main.bare {
 .product {
   width: 100%;
   height: 230px;
-  background-image: url("pictures/writing2.jpg");
+  background-image: url("pictures/product.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 100px;
+  margin-top: 25px;
   color: white;
   text-align: center;
+}
+
+#product_app {
+  background-image: url("pictures/productpic.jpg");
 }
 
 .product h4 {
@@ -970,4 +1009,8 @@ main.bare {
 
 .spacer {
   height: 100px;
+}
+
+.smallspacer {
+  height: 60px;
 }
