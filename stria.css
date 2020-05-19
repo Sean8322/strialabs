@@ -224,7 +224,7 @@ section.divisions {
 .block p {
   padding-left: 20px;
   padding-right: 20px;
-
+  text-align: left;
 }
 
 .block img {
@@ -465,7 +465,7 @@ section.divisions {
   height: 450px;
   position: absolute;
   top: calc(570px + 70%);
-  left: 60px;
+  left: 100px;
   z-index: 1;
 }
 
@@ -965,7 +965,6 @@ main.bare {
 #patentingenuity div {
   border-radius: 0%;
   height: 50px;
-
 }
 
 #patentingenuity img {
@@ -980,6 +979,42 @@ main.bare {
   padding-top: 30px;
   width: 90%;
   height: 65%;
+}
+
+#makerfaire div {
+  border-radius: 0%;
+}
+
+#makerfaire img {
+}
+
+#dschool div {
+  border-radius: 0%;
+  height: 90px;
+}
+
+#dschool img {
+  height: 90px;
+  width: 154px;
+}
+
+#twobitcircus div {
+  border-radius: 0%;
+  height: 90px;
+  width: 163px;
+}
+
+#twobitcircus img {
+  height: 28px;
+  width: 163px;
+}
+
+#generalmotors div {
+  border-radius: 0%;
+}
+
+#ashoka div {
+  border-radius: 0%;
 }
 
 /* products page */
